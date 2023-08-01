@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/90564cbddd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo-1.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header"> Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-End Developer</p>
+                <h1>Hi, I'm <span>Shamail </span></h1>
+            </div>
+        </div>
+
+    </div>
+   <!-- ------------------about section------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Shumail.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub">About Me</h1>
+                    <p>I have a strong foundation in front-end development and possess an in-depth understanding of 
+                        JavaScript, HTML,React and CSS. Throughout my career, I have successfully built and 
+                        maintained responsive and user-friendly web interfaces, employing best practices and ensuring 
+                        cross-browser compatibility. I am proficient in using modern JavaScript frameworks and 
+                        libraries and other tools including React, TypeScript, Bootstrap, DOM, Git, Gerrit, AJAX, Rest APIs,
+                        GraphQL and Python to create dynamic and interactive web applications.
+                        One of my notable achievements includes leading the development of a React-based IOT
+                        platform for a client, where I collaborated closely with a cross-functional team to deliver a high quality product within tight deadlines. My responsibilities encompassed designing and 
+                        implementing complex UI components, integrating with APIs, and optimizing performance to 
+                        enhance the overall user experience. The project received positive feedback from both the client 
+                        and end-users, resulting in increased conversions and customer satisfaction.
+                        In addition to my technical skills, I possess strong problem-solving abilities and thrive in a 
+                        collaborative environment. I have experience working in agile development teams, utilizing tools 
+                        such as Git and Jira to facilitate seamless collaboration and ensure efficient project management. 
+                        I am accustomed to participating in code reviews, providing constructive feedback, and 
+                        continuously improving code quality and team productivity.
+                        </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                            <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                            <p class="tab-links" onclick="openTab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                
+                                <li> <span>Web Development</span>  </li>
+                                <li> <span>JavaScript</span>  </li>
+                                <li> <span>React.js</span></li>
+                                <li> <span>Figma</span></li>
+                                <li> <span>TypeScript</span></li>
+                                <li> <span>HTML-5</span></li>
+                                <li> <span>CSS</span></li>
+                                <li> <span>BootStrap</span></li>
+                                <li> <span>Git</span></li>
+                                <li> <span>Web APIS</span></li>
+                                <li> <span>Postman</span></li>
+                                
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li> <span>Sept(21) - Current</span> <br>Front-End Developer at HARMAN Connected Services </li>
+                                <li> <span>Apr(21) - Sept(21)</span><br>Trainee Engineer at wipro </li>
+                                
+                                
+                                
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li> <span>2017 - 2021</span> <br>BE(Electronics and Communication) from MIET Jammu </li>
+                                
+                        
+                                
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===================Services================= -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+
+                    <h2> Front-End Developmet</h2>
+                    <p>I have a strong foundation in front-end development and possess an in-depth understanding of 
+                        JavaScript, HTML,React and CSS. Throughout my career, I have successfully built and 
+                        maintained responsive and user-friendly web interfaces, employing best practices and ensuring 
+                        cross-browser compatibility. I am proficient in using modern JavaScript frameworks and 
+                        libraries and other tools including React, TypeScript, Bootstrap, DOM, Git, Gerrit, AJAX, Rest APIs,
+                        GraphQL and Python to create dynamic and interactive web applications.</p>
+                        <a href="#">Learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+
+                    <h2> Web Designing</h2>
+                    <p>Collaborate with the engineering team to build a rich user experience on the company's system.
+                        Translate use cases into intuitive user experiences from end to end.
+                        Produce flows, wireframes, prototypes to test concepts.
+                        Analyze data and feedback to adjust the user experience.
+                        Assist with designing solutions for the project.</p>
+                     <a href="Learn more"></a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ==============================PortFolio=============== -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/pic1.png" alt="">
+                <div class="layer">
+                    <h3> Web Development</h3>
+                    <p>Helps the users to interact with the website smoothly</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/pic2.png" alt="">
+                <div class="layer">
+                    <h3> Website </h3>
+                    <p>Created a user-friendly website for a cloud kitchen for smooth and better user experience</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/pic3.png" alt="">
+                <div class="layer">
+                    <h3>Web Designing</h3>
+                    <p> Planned and designed the structure and design of web pages according to the requirements of the client.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+           
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+
+</div>
+            <!-- ---------------contact---------------- -->
+            <div id="contact">
+                <div class="conatiner">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub">Contact Me</h1>
+                            <p><i class="fa-solid fa-paper-plane"></i> shumailfarooqi12@gmail.com</p>
+                            <p><i class="fa-solid fa-phone-volume"></i> 6005025434</p>
+                            <div class="social-icons">
+                                <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+
+                            </div>
+                            <a href="images/Shumail Resume.docx.pdf" download class="btn btn2">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form  name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="your Name" required>
+                                <input type="email" name="Email" placeholder="your Email" required>
+                                <textarea name="Message" rows="10" placeholder="your Message"></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>copyright <i class="fa-regular fa-copyright"></i> Shamail Farooqi </p>
+                </div>
+            </div>
+
+
+
+
+
+<!-- -------------javaScript Function------------- -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function openTab(tabName){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabName).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidmenu= document.getElementById("sidemenu");
+        function openmenu(){
+            sidmenu.style.right="0";
+        }
+        function closemenu(){
+            sidmenu.style.right="-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxLvWvajXE7nxnc8XVK51nu_nVYKfnkRLgcmQS3ANH8TLNjrwLlQMDfUUcCswAByJ9f/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent succesfully!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset( )
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
